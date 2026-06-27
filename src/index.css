@@ -1,0 +1,33 @@
+﻿@import "tailwindcss";
+
+/* Smooth scrollbar for the notes container */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: #4b5563;
+  border-radius: 3px;
+}
+
+/* Hide scrollbar for note cards */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Header underline style */
+#header {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-color: rgba(251, 191, 36, 0.5);
+  text-decoration-thickness: 2px;
+}
